@@ -30,5 +30,12 @@ Install the required dependency with: `pip install requests`
 
 The application will continue generating and checking random usernames until stopped.
 
+
+Disclaimer
+cyber600T Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.
+Username-Sniper is built for Educational Purpose. Use at your own Risk.
+
+
 ## Created by cyber600T
 GitHub Profile: https://github.com/cyber600T
+

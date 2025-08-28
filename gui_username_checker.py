@@ -123,7 +123,7 @@ class Checker(threading.Thread):
             if status is True:
                 self.counter["available"] += 1
                 with open(self.filename, "a", encoding="utf-8") as f:
-                    f.write(f"{uname}\n")
+                    f.write(f"{self.platform}:{uname}\n")
             time.sleep(0.4)
 
 class App(ttk.Frame):

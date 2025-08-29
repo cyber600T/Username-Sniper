@@ -4,7 +4,7 @@ import requests, random, string, threading, queue, time, os
 from datetime import datetime
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-TIMEOUT = 8
+TIMEOUT = 3
 
 def is_roblox_available(username):
     try:
